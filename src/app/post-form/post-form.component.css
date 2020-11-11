@@ -3,21 +3,31 @@
   flex-direction: column;
   width: 50%;
   margin: auto;
+  background-color: #b1ddea;
+  padding: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
-.title-input {
+.label {
+  font-weight: 700;
+  font-size: 25px;
+  padding: 5px;
 }
 
 .thought-input {
   height: 200px;
   resize: both;
   overflow: auto;
+  padding-bottom: 10px;
 }
 
 .post-styler {
   height: 40px;
   border-radius: 5px;
   background-color: white;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
 }
 
 .new-thought {

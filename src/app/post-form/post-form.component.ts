@@ -29,7 +29,7 @@ export class PostFormComponent implements OnInit {
 
 
   showForm=():void=>{
-    this.formShow = !this.formShow;
+    setTimeout(() =>{ this.formShow = !this.formShow;}, 100);
   }
 
 }
