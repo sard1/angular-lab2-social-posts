@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.title-input {
+}
+
+.thought-input {
+  height: 200px;
+  resize: both;
+  overflow: auto;
+}
+
+.post-styler {
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.new-thought {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}

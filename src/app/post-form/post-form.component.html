@@ -1,0 +1,22 @@
+<div class="form-container" *ngIf="!formShow">
+  <form class="form" #postForm="ngForm" (ngSubmit)="submitPost(postForm)">
+    <label for="title">Title</label>
+    <input class="post-styler" type="text" name="title" id="title" ngModel />
+    <label for="thought">Thought</label>
+    <textarea
+      form="postForm"
+      type="text"
+      class="thought-input"
+      name="thought"
+      id="thought"
+      cols="30"
+      rows="10"
+      ngModel
+    ></textarea>
+    <button class="post-styler" (click)="showForm()">Add Post</button>
+  </form>
+</div>
+
+<button class="post-styler new-thought" (click)="showForm()">
+  New Thought
+</button>

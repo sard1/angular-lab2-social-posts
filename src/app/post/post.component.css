@@ -1,0 +1,28 @@
+.post-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+  list-style-type: none;
+  margin: auto;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.thought {
+}
+
+.title-thought {
+  display: flex;
+  flex-direction: column;
+}
+
+.remove-button {
+  height: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.remove-button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}

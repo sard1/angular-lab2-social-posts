@@ -1,0 +1,12 @@
+<li class="post-container">
+  <div class="title-thought">
+    <p class="title">{{ postRef.title }}</p>
+    <p class="thought">{{ postRef.thought }}</p>
+  </div>
+  <img
+    src="assets/trash.jpg"
+    class="remove-button"
+    height="35"
+    (click)="deletePost()"
+  />
+</li>
